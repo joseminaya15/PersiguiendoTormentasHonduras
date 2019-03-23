@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible"  content="IE=edge">
         <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <meta name="description"            content="Avaya Persiguiendo Tormentas">
-        <meta name="keywords"               content="Avaya Persiguiendo Tormentas">
+        <meta name="description"            content="Evento Persiguiendo Tormentas Honduras">
+        <meta name="keywords"               content="Evento Persiguiendo Tormentas Honduras">
         <meta name="robots"                 content="Index,Follow">
         <meta name="date"                   content="March 18, 2019"/>
         <meta name="language"               content="en">
         <meta name="theme-color"            content="#425563">
-        <title>Avaya Persiguiendo Tormentas</title>
+        <title>Evento Persiguiendo Tormentas Honduras</title>
     	<link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.png">
     	<link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.min.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
@@ -25,10 +25,10 @@
     <body>
         <div class="js-header">
             <div class="js-header--left">
-                <img src="<?php echo RUTA_IMG?>logo/avaya.png">
+                <img src="<?php echo RUTA_IMG?>logo/orbe.png">
             </div>
             <div class="js-header--right">
-                <p>Avaya Evento Honduras</p>
+                <p>Evento Persiguiendo Tormentas Honduras</p>
             </div>
         </div>
         <section class="js-section js-height">
