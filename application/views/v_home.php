@@ -16,6 +16,8 @@
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/css/bootstrap.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>owl-carousel/owl.carousel.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>owl-carousel/owl.theme.default.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>metric.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
@@ -30,12 +32,27 @@
         </div>
     </div>
     <section id="home">
-        <div class="js-fondo"></div>
-        <div class="js-container jm-home">
-            <div class="js-home js-flex">
-                <div class="js-contenido">
-                    <h2>Persiguiendo tormentas</h2>
-                    <p>Un evento de tendencias globales</p>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="js-fondo fondo1"></div>
+                <div class="js-container jm-home">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>Persiguiendo tormentas</h2>
+                            <p>Un evento de tendencias globales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="js-fondo fondo2"></div>
+                <div class="js-container jm-home">
+                    <div class="js-home js-flex">
+                        <div class="js-contenido">
+                            <h2>Persiguiendo tormentas</h2>
+                            <p>Un evento de tendencias globales</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,6 +150,7 @@
     <script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/i18n/defaults-es_ES.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>owl-carousel/owl.carousel.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsindex.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">

@@ -18,6 +18,23 @@ $('a.link[href^="#"]').click(function(e) {
  		scrollTop : (y - 40)
  	}, 'slow');
 });
+$('#home .owl-carousel').owlCarousel({
+	lazyLoad : true,
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	responsive : {
+		0 : {
+			items : 1
+		}
+	},
+	navigation : false,
+	nav : false,
+	loop : true,
+	autoplay : true,
+	mouseDrag: false,
+	dots: false,
+	autoplayTimeout : 3000
+});
 function sendInformation(){
 	var check_book  = null;
 	var name 		= $('#name').val();
